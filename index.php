@@ -215,125 +215,27 @@ include __DIR__ . '/includes/header.php';
     <div class="partners-logos-grid">
       <!-- 1. Cisco Systems -->
       <div class="partner-logo-card" title="Cisco Systems">
-        <svg width="110" height="30" viewBox="0 0 110 30" fill="none" class="vendor-svg">
-          <g fill="#049fd9">
-            <rect x="2" y="11" width="3" height="8" rx="1.5"/>
-            <rect x="8" y="7" width="3" height="12" rx="1.5"/>
-            <rect x="14" y="3" width="3" height="16" rx="1.5"/>
-            <rect x="20" y="0" width="3" height="19" rx="1.5"/>
-            <rect x="26" y="3" width="3" height="16" rx="1.5"/>
-            <rect x="32" y="7" width="3" height="12" rx="1.5"/>
-            <rect x="38" y="11" width="3" height="8" rx="1.5"/>
-          </g>
-          <text x="46" y="18" font-family="'Outfit', sans-serif" font-weight="800" font-size="14" fill="#049fd9" letter-spacing="1.5">CISCO</text>
-        </svg>
+        <img src="assets/partners/cisco.png" alt="Cisco Systems" class="partner-img" />
       </div>
 
       <!-- 2. Dell Technologies -->
       <div class="partner-logo-card" title="Dell Technologies">
-        <svg width="125" height="30" viewBox="0 0 125 30" fill="none" class="vendor-svg">
-          <circle cx="15" cy="15" r="13" stroke="#007db8" stroke-width="2.2" fill="none"/>
-          <text x="15" y="19.5" font-family="'Outfit', sans-serif" font-weight="900" font-size="11" fill="#007db8" text-anchor="middle" letter-spacing="-0.5">DELL</text>
-          <text x="35" y="17" font-family="'Outfit', sans-serif" font-weight="800" font-size="11.5" fill="#007db8" letter-spacing="0.3">Technologies</text>
-        </svg>
+        <img src="assets/partners/dell.png" alt="Dell Technologies" class="partner-img" />
       </div>
 
       <!-- 3. HPE (Hewlett Packard Enterprise) -->
       <div class="partner-logo-card" title="Hewlett Packard Enterprise">
-        <svg width="120" height="30" viewBox="0 0 120 30" fill="none" class="vendor-svg">
-          <rect x="2" y="5" width="36" height="20" rx="2" stroke="#01a982" stroke-width="3" fill="none"/>
-          <text x="20" y="19" font-family="'Outfit', sans-serif" font-weight="900" font-size="12" fill="#01a982" text-anchor="middle">hpe</text>
-          <text x="44" y="16" font-family="'Outfit', sans-serif" font-weight="800" font-size="11.5" fill="#1e293b" letter-spacing="0.3">Enterprise</text>
-        </svg>
+        <img src="assets/partners/hpe.png" alt="Hewlett Packard Enterprise" class="partner-img" />
       </div>
 
-      <!-- 4. Fortinet -->
-      <div class="partner-logo-card" title="Fortinet Cyber Security">
-        <svg width="118" height="30" viewBox="0 0 118 30" fill="none" class="vendor-svg">
-          <g fill="#ee2737">
-            <rect x="2" y="6" width="7" height="7" rx="1.5"/>
-            <rect x="11" y="6" width="7" height="7" rx="1.5"/>
-            <rect x="2" y="15" width="7" height="7" rx="1.5"/>
-            <rect x="11" y="15" width="7" height="7" rx="1.5"/>
-          </g>
-          <text x="23" y="19" font-family="'Outfit', sans-serif" font-weight="900" font-size="13" fill="#ee2737" letter-spacing="1">FORTINET</text>
-        </svg>
+      <!-- 4. Lenovo -->
+      <div class="partner-logo-card" title="Lenovo">
+        <img src="assets/partners/lenovo.png" alt="Lenovo" class="partner-img" />
       </div>
 
-      <!-- 5. Schneider Electric / APC -->
-      <div class="partner-logo-card" title="APC by Schneider Electric">
-        <svg width="130" height="30" viewBox="0 0 130 30" fill="none" class="vendor-svg">
-          <g fill="#3dcd58">
-            <path d="M4 21L13 5L17 11L11 21H4Z" fill="#3dcd58"/>
-            <path d="M15 21L19 15L23 21H15Z" fill="#009639"/>
-          </g>
-          <text x="27" y="14" font-family="'Outfit', sans-serif" font-weight="900" font-size="12" fill="#ed1c24" letter-spacing="1">APC</text>
-          <text x="27" y="23" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="7" fill="#475569" letter-spacing="0.2">Schneider Electric</text>
-        </svg>
-      </div>
-
-      <!-- 6. Vertiv -->
-      <div class="partner-logo-card" title="Vertiv Critical Power">
-        <svg width="110" height="30" viewBox="0 0 110 30" fill="none" class="vendor-svg">
-          <polygon points="12,3 20,15 12,27 4,15" fill="#f58220"/>
-          <polygon points="12,8 16,15 12,22 8,15" fill="#ffffff"/>
-          <text x="25" y="19" font-family="'Outfit', sans-serif" font-weight="900" font-size="13.5" fill="#1e293b" letter-spacing="1.2">VERTIV</text>
-        </svg>
-      </div>
-
-      <!-- 7. Lenovo -->
-      <div class="partner-logo-card" title="Lenovo ThinkSystem">
-        <svg width="115" height="30" viewBox="0 0 115 30" fill="none" class="vendor-svg">
-          <rect x="2" y="5" width="66" height="20" rx="3" fill="#e2231a"/>
-          <text x="35" y="19" font-family="'Outfit', sans-serif" font-weight="800" font-size="12" fill="#ffffff" text-anchor="middle" letter-spacing="0.3">Lenovo</text>
-          <text x="74" y="19" font-family="'Outfit', sans-serif" font-weight="600" font-size="8.5" fill="#64748b" letter-spacing="0.5">ISG</text>
-        </svg>
-      </div>
-
-      <!-- 8. VMware -->
-      <div class="partner-logo-card" title="VMware by Broadcom">
-        <svg width="115" height="30" viewBox="0 0 115 30" fill="none" class="vendor-svg">
-          <text x="2" y="20" font-family="'Outfit', sans-serif" font-weight="800" font-size="14" fill="#0095d3" letter-spacing="-0.5">vm</text>
-          <text x="25" y="20" font-family="'Outfit', sans-serif" font-weight="700" font-size="14" fill="#475569" letter-spacing="-0.5">ware</text>
-          <text x="66" y="20" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="7.5" fill="#94a3b8">Cloud</text>
-        </svg>
-      </div>
-
-      <!-- 9. Microsoft -->
-      <div class="partner-logo-card" title="Microsoft Enterprise">
-        <svg width="120" height="30" viewBox="0 0 120 30" fill="none" class="vendor-svg">
-          <rect x="2" y="7" width="7" height="7" fill="#f25022"/>
-          <rect x="11" y="7" width="7" height="7" fill="#7fba00"/>
-          <rect x="2" y="16" width="7" height="7" fill="#00a4ef"/>
-          <rect x="11" y="16" width="7" height="7" fill="#ffb900"/>
-          <text x="23" y="19" font-family="'Segoe UI', 'Outfit', sans-serif" font-weight="700" font-size="12.5" fill="#334155" letter-spacing="0.2">Microsoft</text>
-        </svg>
-      </div>
-
-      <!-- 10. MikroTik -->
-      <div class="partner-logo-card" title="MikroTik RouterOS">
-        <svg width="115" height="30" viewBox="0 0 115 30" fill="none" class="vendor-svg">
-          <rect x="2" y="6" width="18" height="18" rx="3.5" fill="#002b49"/>
-          <path d="M6 18V11L11 15.5L16 11V18" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <text x="25" y="19" font-family="'Outfit', sans-serif" font-weight="800" font-size="12.5" fill="#002b49" letter-spacing="0.3">MikroTik</text>
-        </svg>
-      </div>
-
-      <!-- 11. CommScope -->
-      <div class="partner-logo-card" title="CommScope Systimax">
-        <svg width="130" height="30" viewBox="0 0 130 30" fill="none" class="vendor-svg">
-          <path d="M4 15C4 9.5 8.5 6 14 6C16.8 6 19.5 7.2 21.2 9.5L17.8 12.2C16.8 10.8 15.5 10 14 10C10.8 10 8.2 12.2 8.2 15C8.2 17.8 10.8 20 14 20C15.5 20 16.8 19.2 17.8 17.8L21.2 20.5C19.5 22.8 16.8 24 14 24C8.5 24 4 20.5 4 15Z" fill="#005596"/>
-          <text x="26" y="19" font-family="'Outfit', sans-serif" font-weight="800" font-size="11" fill="#005596" letter-spacing="0.8">COMMSCOPE</text>
-        </svg>
-      </div>
-
-      <!-- 12. Hikvision -->
-      <div class="partner-logo-card" title="Hikvision Surveillance">
-        <svg width="120" height="30" viewBox="0 0 120 30" fill="none" class="vendor-svg">
-          <rect x="2" y="7" width="15" height="15" rx="2.5" fill="#e60012"/>
-          <circle cx="9.5" cy="14.5" r="3" fill="#ffffff"/>
-          <text x="22" y="19" font-family="'Outfit', sans-serif" font-weight="900" font-size="11.5" fill="#e60012" letter-spacing="1">HIKVISION</text>
-        </svg>
+      <!-- 5. CommScope -->
+      <div class="partner-logo-card" title="CommScope">
+        <img src="assets/partners/commscope.png" alt="CommScope" class="partner-img" />
       </div>
     </div>
   </div>

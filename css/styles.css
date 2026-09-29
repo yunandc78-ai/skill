@@ -804,6 +804,20 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 140px;
 }
 
+.partner-img {
+  display: block;
+  max-height: 32px;
+  max-width: 130px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.partner-logo-card:hover .partner-img {
+  transform: scale(1.06);
+}
+
 /* --- Interactive Solutions Section (Tabs & Grid) --- */
 .solutions {
   padding: 7rem 0;
@@ -2505,15 +2519,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
 }
 .partners-logos-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-  gap: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
   max-width: 1120px;
   margin: 0 auto;
 }
 .partners-logos-grid .partner-logo-card {
-  height: 60px;
-  padding: 0.85rem 1.25rem;
+  height: 64px;
+  min-width: 180px;
+  padding: 0.85rem 1.5rem;
 }
 
 /* Testimonials Grid */
