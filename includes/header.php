@@ -14,7 +14,7 @@ $pageTitle = isset($pageTitle)
     : $siteSettings['site_name'] . ' - Enterprise Network System Integrator & Data Center';
 
 $currentPage = $currentPage ?? 'home';
-$cleanWaNumber = preg_replace('/[^0-9]/', '', $siteSettings['company_whatsapp'] ?? '6282126642581');
+$cleanWaNumber = preg_replace('/[^0-9]/', '', $siteSettings['company_whatsapp'] ?? '62811206820');
 ?>
 <!DOCTYPE html>
 <html lang="id">

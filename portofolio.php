@@ -13,7 +13,7 @@ $pageDescription = 'Daftar rekam jejak proyek implementasi data center, jaringan
 
 $portfolioItems = getPortfolioItems(12);
 $testimonials = getTestimonials();
-$cleanWaNumber = preg_replace('/[^0-9]/', '', $siteSettings['company_whatsapp'] ?? '6282126642581');
+$cleanWaNumber = preg_replace('/[^0-9]/', '', $siteSettings['company_whatsapp'] ?? '62811206820');
 
 include __DIR__ . '/includes/header.php';
 ?>

@@ -733,7 +733,7 @@ function initContactForm() {
       const company = document.getElementById('form-company')?.value || 'Instansi';
       const notes = document.getElementById('form-notes')?.value || 'Konsultasi Solusi IT';
       
-      const phoneNum = "6282126642581"; // PT Skill Nusa Business Line
+      const phoneNum = "62811206820"; // PT Skill Nusa Business Line
       const message = encodeURIComponent(`Halo PT Skill Nusa Infotama,\nSaya *${name}* dari *${company}* ingin berkonsultasi mengenai solusi:\n\n${notes}\n\nMohon info lebih lanjut.`);
       window.open(`https://wa.me/${phoneNum}?text=${message}`, '_blank');
     });
@@ -743,7 +743,7 @@ function initContactForm() {
   const floatingWa = document.getElementById('floating-wa');
   if (floatingWa) {
     floatingWa.addEventListener('click', () => {
-      const phoneNum = "6282126642581";
+      const phoneNum = "62811206820";
       const message = encodeURIComponent(`Halo PT Skill Nusa Infotama, saya ingin konsultasi mengenai solusi infrastruktur IT & Network System Integration.`);
       window.open(`https://wa.me/${phoneNum}?text=${message}`, '_blank');
     });

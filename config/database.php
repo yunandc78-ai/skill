@@ -69,7 +69,7 @@ function getSiteSettings(): array {
         'company_address'    => 'Jl. Gajah No. 21, Kota Bandung, Jawa Barat 40264, Indonesia',
         'company_phone'      => '+6222-7318113',
         'company_email'      => 'Support@skillnusa.co.id',
-        'company_whatsapp'   => '6282126642581',
+        'company_whatsapp'   => '62811206820',
         'company_maps_embed' => 'https://maps.google.com/maps?q=Jl.+Gajah+No.+21,+Kota+Bandung,+Jawa+Barat+40264&t=&z=16&ie=UTF8&iwloc=&output=embed',
         'hero_headline'      => 'Solusi Terintegrasi Jaringan Enterprise & Data Center',
         'hero_subheadline'   => 'PT Skill Nusa Infotama menghadirkan solusi total di bidang Network System Integration, Data Center, Managed Services (Sewa Perangkat IT), dan Konsultan Software sejak 1999.',

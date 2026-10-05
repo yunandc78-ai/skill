@@ -117,7 +117,7 @@ $settings = getSiteSettings();
             <input type="text" name="company_phone" class="form-control" value="<?= htmlspecialchars($settings['company_phone']) ?>" required>
           </div>
           <div class="form-group form-col">
-            <label class="form-label">WhatsApp Hotline (Hanya Angka: contoh 6282126642581)</label>
+            <label class="form-label">WhatsApp Hotline (Hanya Angka: contoh 62811206820)</label>
             <input type="text" name="company_whatsapp" class="form-control" value="<?= htmlspecialchars($settings['company_whatsapp']) ?>" required>
           </div>
         </div>

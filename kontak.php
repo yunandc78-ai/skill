@@ -11,7 +11,7 @@ $siteSettings = getSiteSettings();
 $pageTitle = 'Kontak Kami - Konsultasi & Alamat Kantor';
 $pageDescription = 'Hubungi tim ahli PT Skill Nusa Infotama untuk konsultasi data center, jaringan fiber optic, sewa laptop, dan survei teknis. Kantor di Bandung, Jawa Barat.';
 
-$cleanWaNumber = preg_replace('/[^0-9]/', '', $siteSettings['company_whatsapp'] ?? '6282126642581');
+$cleanWaNumber = preg_replace('/[^0-9]/', '', $siteSettings['company_whatsapp'] ?? '62811206820');
 
 // Menangani Pengiriman Formulir Kontak
 $alert = null;

@@ -249,7 +249,7 @@ if ($dbConnected) {
 
       <div class="overview-card">
         <span style="color: var(--text-muted); font-size: 0.85rem;">Nomor WhatsApp Hotline</span>
-        <h2 style="font-size: 1.3rem; color: #10b981; margin: 0.85rem 0;">+62 821-2664-2581</h2>
+        <h2 style="font-size: 1.3rem; color: #10b981; margin: 0.85rem 0;">+62 811-206-820</h2>
         <a href="settings.php" style="color: #10b981; font-size: 0.85rem;">Ubah Pengaturan Kontak &rarr;</a>
       </div>
     </div>

@@ -4,7 +4,7 @@
  * Website: www.skillnusa.co.id
  */
 
-$cleanWaNumber = preg_replace('/[^0-9]/', '', $siteSettings['company_whatsapp'] ?? '6282126642581');
+$cleanWaNumber = preg_replace('/[^0-9]/', '', $siteSettings['company_whatsapp'] ?? '62811206820');
 ?>
   <!-- Footer Utama -->
   <footer class="footer">

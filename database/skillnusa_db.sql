@@ -24,7 +24,7 @@ INSERT INTO `site_settings` (`setting_key`, `setting_value`, `description`) VALU
 ('company_address', 'Jl. Gajah No. 21, Kota Bandung, Jawa Barat 40264, Indonesia', 'Alamat Kantor Utama'),
 ('company_phone', '+6222-7318113', 'Nomor Telepon Kantor'),
 ('company_email', 'Support@skillnusa.co.id', 'Email Dukungan / Layanan'),
-('company_whatsapp', '6282126642581', 'Nomor WhatsApp Hotline (tanpa tanda + atau spasi)'),
+('company_whatsapp', '62811206820', 'Nomor WhatsApp Hotline (tanpa tanda + atau spasi)'),
 ('company_maps_embed', 'https://maps.google.com/maps?q=Jl.+Gajah+No.+21,+Kota+Bandung,+Jawa+Barat+40264&t=&z=16&ie=UTF8&iwloc=&output=embed', 'URL Embed Google Maps'),
 ('hero_headline', 'Solusi Terintegrasi Jaringan Enterprise & Data Center', 'Headline Banner Utama'),
 ('hero_subheadline', 'PT Skill Nusa Infotama menghadirkan solusi total di bidang Network System Integration, Data Center, Managed Services (Sewa Perangkat IT), dan Konsultan Software sejak 1999.', 'Subheadline Banner Utama'),

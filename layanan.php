@@ -12,7 +12,7 @@ $pageTitle = 'Layanan & Program Solusi IT Terintegrasi';
 $pageDescription = 'Katalog lengkap layanan PT Skill Nusa Infotama: Data Center, Jaringan Fiber Optic, Managed Service Sewa IT, Power UPS Enterprise, dan Software Consultant.';
 
 $services = getAllServices();
-$cleanWaNumber = preg_replace('/[^0-9]/', '', $siteSettings['company_whatsapp'] ?? '6282126642581');
+$cleanWaNumber = preg_replace('/[^0-9]/', '', $siteSettings['company_whatsapp'] ?? '62811206820');
 
 include __DIR__ . '/includes/header.php';
 ?>
