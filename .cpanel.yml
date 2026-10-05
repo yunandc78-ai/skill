@@ -1,5 +1,5 @@
 ---
 deployment:
 tasks:
-- export DEPLOYPATH=/home/cskw2248/repositories/skillnusa
+- export DEPLOYPATH=/home/cskw2248/public_html/git
 - /bin/cp -R * $DEPLOYPATH
